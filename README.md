@@ -46,7 +46,9 @@ streamlit run frontend/app.py
 
 python -c "
 from ingestion.ingest import DocumentIngestionPipeline
+
 p = DocumentIngestionPipeline()
+
 p.ingest_directory('./data')
 "
 
