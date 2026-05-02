@@ -15,9 +15,14 @@ User Query → LangGraph Pipeline → FastAPI → Streamlit UI
 ### 1. Clone and install
 
 git clone https://github.com/batman-techknight/hallucination_detection_sys.git
+
 cd hallucination_detection_sys
+
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+
+source venv/bin/activate  
+
+# Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 ### 2. Configure environment
